@@ -9,7 +9,7 @@ This composite action simplifies the installation of PHP dependencies with Compo
   uses: benoitchantre/composer-install@1.0.0
   with:
     # Composer install options.
-    # --no-interaction --no-progress are always used.
+    # --no-interaction --no-progress --ansi are always used.
     # Optional.
     options: '--no-dev --classmap-authoritative'
 ```
