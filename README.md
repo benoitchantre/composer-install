@@ -6,7 +6,7 @@ This composite action simplifies the installation of PHP dependencies with Compo
 
 ```yaml
 - name: Setup SSH key
-  uses: benoitchantre/composer-install@1.0.0
+  uses: benoitchantre/composer-install@1.0.1
   with:
     # Composer install options.
     # --no-interaction --no-progress --ansi are always used.
